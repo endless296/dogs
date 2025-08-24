@@ -1,0 +1,28 @@
+{
+  "name": "cloudflare-post-handler",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers handler for post creation with MySQL database",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:production": "wrangler deploy --env production",
+    "tail": "wrangler tail",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "mysql",
+    "api",
+    "posts"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  },
+  "dependencies": {
+    "@planetscale/database": "^1.18.0"
+  }
+}
